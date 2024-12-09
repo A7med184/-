@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Scheherazade+New:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    justify-content: center;
+    min-height: 97vh;
+    color: #4d2c16; /* Rich brown for text */
+    background-color: #f5e3c8;
+}
+
+table, 
+tr,
+th,
+td {
+    border: 1px solid #4d2c16; /* Rich brown for borders */
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff; /* White text for contrast */
+    background-color: #8b572a; /* Deep brownish-gold for header */
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #4d2c16; /* Rich brown for text */
+    background-color: #f9e8d2; /* Light beige-gold for table cells */
+}
+
+table {
+    width: 90%;
+    height: 500px;
+}
